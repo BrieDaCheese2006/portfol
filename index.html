@@ -1,7 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>W3.CSS Template</title>
+<title>Brianna Wood Photography</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1 {font-family: "Raleway", Arial, sans-serif}
+h1 {letter-spacing: 6px}
+.w3-row-padding img {margin-bottom: 12px}
+</style>
+</head>
+<body>
+ 
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+ 
+<!-- Header -->
+<header class="w3-panel w3-center w3-opacity" style="padding:128px 16px">
+  <h1 class="w3-xlarge">PHOTOGRAPHER</h1>
+  <h1>Brianna Wood</h1>
+ 
+ <html>
+<head>
+<title>BRW PHOTO</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -14,7 +38,7 @@ img {margin-bottom: -7px}
 </style>
 </head>
 <body>
-
+ 
 <!-- Sidebar -->
 <nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
@@ -27,37 +51,77 @@ img {margin-bottom: -7px}
     <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Contact</a>
   </div>
 </nav>
-
-<!-- !PAGE CONTENT! -->
-<div class="w3-content" style="max-width:1500px">
-
-<!-- Header -->
-<div class="w3-opacity">
-<span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
-<div class="w3-clear"></div>
-<header class="w3-center w3-margin-bottom">
-
-<!-- Photo Grid -->
-<div class="w3-row" id="myGrid" style="margin-bottom:128px">
-  <div class="w3-third">
-    <img src="img_8094.jpg" style="width:100%">
-    <img src="img_6774.jpg" style="width:100%">
-    <img src="img_6921.jpg." style="width:100%">
-    <img src="" style="width:100%">
-    <img src="" style="width:100%">
-    <img src="" style="width:100%">
+ 
+ 
+<!-- Photo/s Grid -->
+<div class="w3-row-padding "
+ style="margin-bottom:128px">
+  <div class="w3-half">
+    <img src="IMG_5387-2.jpg" style="width:100%">
+    <style>
+      body {
+        font-family: 'Courier New', monospace;
+      }
+      </style>
+      </head>
+       
+      <html>
+      <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+      .container {
+        position: relative;
+        width: 100%;
+      }
+       
+      .image {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+       
+      .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #ffffff;
+        overflow: hidden;
+        width: 0;
+        height: 100%;
+        transition: .5s ease;
+      }
+       
+      .container:hover .overlay {
+        width: 100%;
+      }
+       
+      .text {
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        white-space: nowrap;
+      }
+      </style>
+      </head>
+      <body>
+       
+       
+      </body>
+      </html>
+     
+    <img src="IMG_6774.jpg" style="width:100%">
+    <img src="IMG_6775.jpg" style="width:100%">
+    <img src="IMG_6812.jpg" style="width:100%">
+    <img src="IMG_6889.jpg" style="width:100%">
   </div>
-
-  <div class="w3-third">
-    <img src="" style="width:100%">
-    <img src="" style="width:100%">
-    <img src="" style="width:100%">
-    <img src="" style="width:100%">
-    <img src="" style="width:100%">
-    <img src="" style="width:100%">
-  </div>
-
-  <div class="w3-third">
+ 
+  <div class="w3-half">
     <img src="" style="width:100%">
     <img src="" style="width:100%">
     <img src="" style="width:100%">
@@ -66,12 +130,12 @@ img {margin-bottom: -7px}
     <img src="" style="width:100%">
   </div>
 </div>
-
+ 
 <!-- End Page Content -->
 </div>
-
-<!-- Footer and Social Media Links -->
-<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px"> 
+ 
+<!-- Footer and Social media links-->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-large">
 </body>
 </html>
  
@@ -92,29 +156,9 @@ img {margin-bottom: -7px}
     </body>
     </html>
    
-
-
-<script>
-// Toggle grid padding
-function myFunction() {
-  var x = document.getElementById("myGrid");
-  if (x.className === "w3-row") {
-    x.className = "w3-row-padding";
-  } else { 
-    x.className = x.className.replace("w3-row-padding", "w3-row");
-  }
-}
-
-// Open and close sidebar
-function w3_open() {
-  document.getElementById("mySidebar").style.width = "100%";
-  document.getElementById("mySidebar").style.display = "block";
-}
-
-function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
-}
-</script>
-
+</footer>
+ 
 </body>
 </html>
+ 
+ 
